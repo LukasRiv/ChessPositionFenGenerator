@@ -170,7 +170,7 @@ def train_classification_model(train_loader, test_loader, num_epochs=20, class_c
     # Define strategic importance for each piece type
     # Higher values = more penalty for misclassification of that piece
     importance = {
-        0: 0.9,   # Empty square (less critical)
+        0: 1.1,   # Empty square (less critical)
         1: 1.0,   # White Pawn
         2: 1.0,   # Black Pawn
         3: 1.1,   # White Knight
