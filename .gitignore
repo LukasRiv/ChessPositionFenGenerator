@@ -1,0 +1,14 @@
+# Dossiers d'images
+data/raw/images/
+data/train/images/
+data/test/images/
+
+# Fichiers Python générés (ex: .pth, .pyc)
+*.pth
+*.pyc
+__pycache__/
+.venv/
+.idea/
+
+torch-2.11.0+cu130-cp314-cp314-win_amd64.whl
+data/archive.zip
